@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./datos.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <h3> Registo de alumno</h3>
+        <input type="text" placeholder="Nombre" id="Nombre" class="input" >
+        <input type="text" placeholder="Apellido" id="Apellido" class="input">
+        <input type="text" placeholder="Edad" id="Edad" class="input">
+        <button type="submit">Guardar el registro</button>
+        <h3> Inscripcion de clase</h3>
+        <input type="text" placeholder="Clase" id="Clase" class="input">
+        <input type="text" placeholder="Calificacion" id="Calificacion" class="input" >
+            <label for="lang">Grupo Asignar</label>
+                <select name="Grupo Asignar" id="lang">
+                    <option value="GrupoA">Grupo A</option>
+                    <option value="GrupoB">Grupo B</option>
+                    <option value="GrupoC">Grupo C</option>
+                </select>
+        <button type="submit" id="g">Guardar clase</button>
+        <h3>Busqueda de Datos</h3>
+        <input type="text" placeholder=" Buqueda Nombre" id="B_Nombre" class="input">
+        <button type="submit">Busqueda por Nombre</button>
+        <input type="text" placeholder="Busqueda Apellido" id="B_Apellido" class="input">
+        <button type="submit">Busqueda por Apellido</button>
+        <h3>Promedios</h3>
+        <input type="text" placeholder="Promedio de alumno" id="P_Alumno" class="input">
+        <button type="submit">Promedio de Alumno</button>
+        <input type="text" placeholder="Promedio de Grupo" id="P_Grupo" class="input">
+        <button type="submit">Promedio de Grupo</button>
+       
+    </form>
+
+
+</body>
+</html>
